@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://w.tuikejishu.com/js/zepto_1.1.3.js?v=1.0.2"></script>
+  <link rel="stylesheet" type="text/css" href="https://w.tuikejishu.com/css/mui.css?v=1.0.2" />
+  <link rel="stylesheet" type="text/css" href="https://w.tuikejishu.com/css/main.css?v=1.0.2" />
+</head>
+<body>
+<div class="header" style="width: 100vw;overflow:hidden;position:relative;">
+  <textarea id="bar" readonly style="position: absolute;left:100%;width: 0px;height: 0px;"></textarea>
+  <div class="left">
+    <img id="img" src="" />
+    <span class="text" id="title"></span>
+  </div>
+  <div class="right">
+    <button class="btn" id="clipboard" data-clipboard-action="copy" data-clipboard-target="#bar">复制链接</button>
+  </div>
+</div>
+<div class="bottom">
+  <div class="content">
+    <span>请准确填写申请信息</span>
+    <div id="name_div">
+      <img src="img/my_fill.png" />
+      <input type="text" id="name" placeholder="您的姓名">
+    </div>
+    <div id="tel_div">
+      <img src="img/tel.png" />
+      <input type="text" id="tel" placeholder="手机号码">
+    </div>
+  </div>
+  <button class="apply">确定</button>
+</div>
+</body>
+
+<script src="https://w.tuikejishu.com/js/mui.js?v=1.0.2"></script>
+<script src="https://w.tuikejishu.com/js/mui.jsonp.js?v=1.0.2"></script>
+<script src="https://w.tuikejishu.com/js/clipboard.js?v=1.0.2"></script>
+<script src="https://w.tuikejishu.com/index.php/home/index/login_status?v=1.0.2"></script>
+<script src="https://w.tuikejishu.com/main.js?v=1.0.2"></script>
+</html>
